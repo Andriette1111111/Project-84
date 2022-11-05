@@ -44,12 +44,12 @@ arrowkey();
 	document.getElementById("d3").innerHTML="You pressed the arrow key";
 	console.log("arrow key");
 	
-if((keyPressed ==17 && keyPressed == 18 && keyPresses == 27 ))
+if((keyPressed ==17 || keyPressed == 18 || keyPressed == 27 ))
 	specialkey();
 		document.getElementById("d4").innerHTML="You pressed the special key";
 		console.log("special key");
-		if((keyPressed = Symbol ))
-	specialkey();
+		if((keyPressed == Symbol ))
+	otherkey();
 		document.getElementById("d5").innerHTML="You pressed the other key";
 		console.log("other key");
 		
